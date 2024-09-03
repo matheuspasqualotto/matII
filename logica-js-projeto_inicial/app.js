@@ -1,8 +1,7 @@
 alert('Boas vindas ao numero secreto');
   
   
-  let
-  numeroSecreto = 6;
+  let numeroSecreto = 6;
   
   
   console.log(numeroSecreto);
@@ -14,6 +13,8 @@ alert('Boas vindas ao numero secreto');
   
   let
   tentativas = 1;
+  
+  
   
   while
   (chute != numeroSecreto) {
@@ -32,12 +33,11 @@ alert('Boas vindas ao numero secreto');
   
   
    
-        alert(`Isso aí! Você descobriu o número secreto
-  ${numeroSecreto} com
-  ${tentativas} tentativas.`);
+        break;
   
   
    
+       
   
   
    
@@ -64,7 +64,8 @@ alert('Boas vindas ao numero secreto');
         }
   
   
-      }   //tentativas = tentativas + 1;
+   
+    }   //tentativas = tentativas + 1;
   
   
    
@@ -72,3 +73,30 @@ alert('Boas vindas ao numero secreto');
   
   
   }
+  
+  
+  let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+  
+  alert(`Isso
+  aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas}
+  ${palavraTentativa}.`);
+  
+  
+   
+  
+  
+  
+ 
+     alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto}
+  com ${tentativas} tentativas.`);
+  
+  
+ 
+  
+  
+ 
+   alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com
+  ${tentativas} tentativa.`);
+  
+  
+  
